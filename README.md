@@ -1,8 +1,8 @@
 !!ATTENTION, le fichier list.csv est gros, attention à l'ouvrir avec le bon outil.
 
-Entrée: fichier csv brut, format jour,type,count
+Entrée: fichier csv brut au format: jour,type,count
 
-Sortie voulue: list de "Stat", au format jour, count total pour type Virus, count total pour type Grey, count total pour type Black, count total pour type White
+Sortie voulue: list de "Stat", au format: jour, count total pour type Virus, count total pour type Grey, count total pour type Black, count total pour type White
 
 La fonction migrateFromFile dans la class MigrationService est testé par le test dans MigrationServiceTest.
 
